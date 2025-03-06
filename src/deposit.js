@@ -35,7 +35,7 @@ export default function Deposit() {
 
     try {
       // Sending only email and deposit amount (password is checked on frontend)
-      const response = await axios.post("http://localhost:8080/data/deposit", {
+      const response = await axios.post("https://server-1-2tx5.onrender.com/data/deposit", {
         email,
         password,
         amount: depositAmount,
