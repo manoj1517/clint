@@ -1,0 +1,29 @@
+/* App.css */
+
+/* Set the background image for the entire app */
+body {
+  background-image: url('./images/back.avif'); /* Path to your background image */
+  background-size: cover; /* Make sure the background covers the entire viewport */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  min-height: 100vh; /* Ensure the background covers the full height */
+  margin: 0; /* Remove any default margin */
+  color: #fff; /* Ensure text is visible over the dark background */
+}
+
+/* Customize the navbar text color */
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff !important; /* Override the default color to make it white */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffd700 !important; /* Change color on hover */
+}
+
+/* Styling for the carousel (if you choose to use it) */
+.custom-carousel img {
+  width: 100%;
+  height: auto;
+}
+
+/* You can add more custom styles here if needed */
