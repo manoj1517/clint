@@ -32,7 +32,7 @@ export default function Withdraw() {
 
     try {
       // Send withdrawal request to backend
-      const response = await axios.post("http://localhost:8080/data/withdraw", {
+      const response = await axios.post("https://server-1-2tx5.onrender.com/data/withdraw", {
         email,
         amount: amountToWithdraw,
       });
